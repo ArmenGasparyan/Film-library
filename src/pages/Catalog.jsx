@@ -15,7 +15,7 @@ const Catalog = () => {
 
     return (
         <>
-            <Snow />
+            {/* <Snow /> */}
             <PageHeader>
                 {category === cate.movie ? 'Movies' : 'TV Series'}
             </PageHeader>

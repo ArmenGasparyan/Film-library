@@ -26,7 +26,7 @@ const Detail = () => {
 
   return (
     <>
-      <Snow /> 
+      {/* <Snow />  */}
       {item && (
         <>
           <div

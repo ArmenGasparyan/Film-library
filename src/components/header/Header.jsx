@@ -5,7 +5,7 @@ import { MdMovie } from 'react-icons/md'
 import { IoTvSharp } from 'react-icons/io5'
 
 import { Link, useLocation } from 'react-router-dom'
-import logo from '../../assets/FilmLogoSanta.png'
+import logo from '../../assets/FilmLogo.png'
 
 const headerNav = [
     {

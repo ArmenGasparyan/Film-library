@@ -10,7 +10,7 @@ import Snow from '../components/snow/Snow'
 const Home = () => {
   return (
     <>
-      <Snow />
+      {/* <Snow /> */}
 
       <div className="hero-slide">
         <HeroSlide />

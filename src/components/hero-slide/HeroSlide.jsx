@@ -11,7 +11,6 @@ import apiConfig from '../../api/apiConfig';
 
 import './hero-slide.scss';
 import { useHistory } from 'react-router';
-import Snow from '../snow/Snow';
 
 const HeroSlide = () => {
 
@@ -36,7 +35,7 @@ const HeroSlide = () => {
         <>
         <div className="hero-slide">
             <Swiper
-                modules={[Autoplay]}
+                // modules={[Autoplay]}
                 grabCursor={true}
                 spaceBetween={0}
                 slidesPerView={1}
