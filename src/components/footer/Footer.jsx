@@ -4,7 +4,6 @@ import "./footer.scss";
 import { Link } from "react-router-dom";
 import bg from "../../assets/footer-bg.jpg";
 import logo from "../../assets/FilmLogo.png";
-import Home from "../../pages/Home";
 
 const Footer = () => {
   return (

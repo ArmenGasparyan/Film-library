@@ -16,8 +16,6 @@ const MovieGrid = ({ category }) => {
 
   const { keyword } = useParams();
 
-  console.log(category);
-
   useEffect(() => {
     const getList = async () => {
       let response = null;

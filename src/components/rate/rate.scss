@@ -1,0 +1,28 @@
+.rate-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 40px;
+
+  .film-rate {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &-point {
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      // background-color: aliceblue;
+      border: 2px solid red;
+    }
+  }
+  .rate-count {
+    color: white;
+    margin-left: 10px;
+  }
+}
+
+.solid {
+  background-color: red;
+}

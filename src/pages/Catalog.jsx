@@ -11,7 +11,6 @@ import Snow from '../components/snow/Snow';
 const Catalog = () => {
 
     const { category } = useParams();
-    // console.log(category)
 
     return (
         <>

@@ -8,7 +8,7 @@ import "./detail.scss";
 import CastList from "./CastList";
 import VideoList from "./VideoList";
 import MovieList from "../../components/movie-list/MovieList";
-import Snow from "../../components/snow/Snow";
+import Rate from "../../components/rate/Rate";
 
 const Detail = () => {
   const { category, id } = useParams();
@@ -23,6 +23,7 @@ const Detail = () => {
     };
     getDetail();
   }, [category, id]);
+
 
   return (
     <>
@@ -58,6 +59,7 @@ const Detail = () => {
               </div>
               <p className="overview">{item.overview}</p>
               <div className="cast">
+                <Rate rate={item.vote_average} count={item.vote_count}/>
                 <div className="section__header">
                   <h2>Casts</h2>
                 </div>

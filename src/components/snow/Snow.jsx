@@ -4,6 +4,7 @@ import "./snow.scss";
 const Snow = () => {
   return (
     <>
+      {/* <div class="snow"></div>
       <div class="snow"></div>
       <div class="snow"></div>
       <div class="snow"></div>
@@ -50,8 +51,7 @@ const Snow = () => {
       <div class="snow"></div>
       <div class="snow"></div>
       <div class="snow"></div>
-      <div class="snow"></div>
-      <div class="snow"></div>
+      <div class="snow"></div> */}
     </>
   );
 };
